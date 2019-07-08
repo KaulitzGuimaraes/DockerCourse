@@ -53,3 +53,20 @@ Create a Docker file based on NGINX with the application above
 ```
 link : https://github.com/KaulitzGuimaraes/DockerCourse/tree/master/Pratical%20Exercise/Dolar%20Price
 #### B)  Change the application interface and replace current container
+
+
+### Exercise 5
+
+#### A) Create a DockerHub account 
+
+http://hub.docker.com/
+
+#### B) Push the follow image and create a container with it.
+```
+kaulitz/dolartoday
+```
+
+#### C) Upload your version of _Dollar Value Today_ in your  DockerHub 
+
+#### D) Do some update in  your version of _Dollar Value Today_  then push it in your  DockerHub 
+
