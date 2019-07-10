@@ -14,11 +14,15 @@
 - Link to  the slides :
 
 ### Exercise 1 
+#### A)
 ```
-Test docker creating an instace of container hello-word ( detached) 
+Test docker creating an instace of  hello-word image ( detached) 
+delete container
 ```
+#### B)
 ```
-Test docker creating an instace of container hello-word (not detached) 
+Test docker creating an instace of  hello-word image (not detached)
+delete container
 ```
 
 ### Exercise 2
