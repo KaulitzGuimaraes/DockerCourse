@@ -16,12 +16,12 @@
 ### Exercise 1 
 #### A)
 ```
-Test docker creating an instance of  hello-word image (not detached) 
+Test docker creating an instance of  hello-world image (not detached) 
 delete container
 ```
 #### B)
 ```
-Test docker creating an instance of  hello-word image ( detached) 
+Test docker creating an instance of  hello-world image ( detached) 
 delete container
 ```
 
