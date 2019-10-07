@@ -1,7 +1,7 @@
 
 async function getData(){
 
-    data = await fetch('http://ip172-18-0-12-bmbnhagl9uvg00828f0g-5000.direct.labs.play-with-docker.com/getData')
+    data = await fetch('http://ip172-18-0-16-bmdjd2mdo98g00fti14g-5000.direct.labs.play-with-docker.com/getData')
     .then(response => response.json())
     .then(json => {
         let data = json.content 
