@@ -1,5 +1,5 @@
 import mysql.connector as mc
-
+import  os
 ## Mysql implemenation class
 # @author   Kaulitz.Guimaraes@ibm.com
 class MySql:
@@ -39,9 +39,9 @@ class MySql:
     def connect_my_sql(self):
 
             mydb = mc.connect(
-                host="0.0.0.0",
-                user="root",
-                password="123456",
+                host=os.getenv("HOST"),
+                user=os.getenv("USER"),
+                password=os.getenv("PASSWORD"),
                 database="TWITTERDATASET"
             )
             return mydb
