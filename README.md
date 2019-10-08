@@ -68,8 +68,7 @@ Create an ubuntu container (detached).
 Rebuild the image using same command as the exercise before.
 ```
 
-#### C )Create another container with the flag `-a` instead of `-r` and see the logs 
-
+#### C )
 ```
 Create a Docker file based on UBUNTU to run the command `uname` 
 ```
