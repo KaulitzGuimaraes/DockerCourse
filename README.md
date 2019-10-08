@@ -29,30 +29,40 @@ Delete container.
 ### Exercise 2
 #### A)
 ```
-Create a Dockerfile based on alpine OS, run the command “uname”.
+Create a Dockerfile based on alpine OS, run the command  "uname". 
 ```
 #### B)
 ```
-Create a Dockerfile based on ubuntu OS, run the command “uname” .
+Create a Dockerfile based on ubuntu OS, run the command  “uname” . 
 ```
 
 #### C) 
 ```
- Create an image based on ubuntu docker file.
+ Create an image based on  alpine  docker file.
 ```
-#### F) 
+#### D) 
 ```
-Create an ubuntu container (detached).
+) Create an image based on  ubuntu  docker file.
 ```
 #### E)
 ```
- Catch ubuntu container log
+ Create an alpine container (not detached).
+
  ```
- ### D)
+ ### F)
  
  ```
- Get into alpine container then run the command “cat /etc/os-release”
+Create an ubuntu container (detached).
  ```
+## G) 
+```
+Catch ubuntu container log
+```
+## G) 
+```
+Get into alpine container then run the  command “cat /etc/os-release”
+```
+
 
 ### Exercise 3
 #### A) 
@@ -139,16 +149,33 @@ Create a container with the name dollarprice_container and port 8080
 ```
 
 
+### F)
+```
+Delete the container
+```
+
+### G)
+```
+Update the application code by running the command 
+git pull 
+```
+### H)
+```
+Rebuild the image
+```
+### I)
+```
+Create another container with same name and port
+```
 ### Exercise 6
 
 #### A) 
 
 ```
-```
-
 Download the code from GitHub link in your machine. Unzip it and open in a editor, you can use a local one or download sublime.
 GitHub : https://github.com/KaulitzGuimaraes/DockerCourse Sublime (Windows only) : https://www.sublimetext.com/3
 
+```
 
 #### B) Push the follow image and create a container with it.
 ```
@@ -165,7 +192,7 @@ Copy the content for each file that you have changed in the docker player .
 #### D)
 ```
 Now open your dockerhub account accessing the link below : https://hub.docker.com
-Check your name profile :
+Check your name profile !
 ```
 
 #### E) 
@@ -206,7 +233,6 @@ Create a container with your username and port 80.
 #### A)
 ```
 Pull the MySQL version 5.6 image
-
 ```
 ####  B)
 ```
