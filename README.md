@@ -114,21 +114,144 @@ Create a NGINX container
 Run this command on your bash :
 git clone https://github.com/KaulitzGuimaraes/DockerCourse
 ```
-#### B)  Change the application interface and replace current container
+#### B)  
+```
+ Go to the Dollar Price folder by running the command cd DockerCourse/PraticalExercises/DollarPrice
+```
 
 
-### Exercise 5
+#### C)  
+```
+Create a Dockerfile, then :
+ - Create a new direct called dollarprice
+ - Copy the current code into the folder
+ - Switch to this directory
+ - Move the current content to this path /usr/share/nginx/html
+ - Expose port 80
+```
+#### D)
+```
+Build the image with the name dollarprice
+```
 
-#### A) Create a DockerHub account 
+### E)
+```
+Create a container with the name dollarprice_container and port 8080
+```
 
-http://hub.docker.com/
+
+### Exercise 6
+
+#### A) 
+
+```
+```
+
+Download the code from GitHub link in your machine. Unzip it and open in a editor, you can use a local one or download sublime.
+GitHub : https://github.com/KaulitzGuimaraes/DockerCourse Sublime (Windows only) : https://www.sublimetext.com/3
+
 
 #### B) Push the follow image and create a container with it.
 ```
-kaulitz/dolartoday
+Now change the application appearance , you can change the HTML and the CSS. In case you feel comfortable to change the Js code, you can also switch the coins conversion.
+API documentation : https://exchangeratesapi.io
 ```
 
-#### C) Upload your version of _Dollar Value Today_ in your  DockerHub 
+#### C) 
+```
+Copy the content for each file that you have changed in the docker player .
+```
 
-#### D) Do some update in  your version of _Dollar Value Today_  then push it in your  DockerHub 
+
+#### D)
+```
+Now open your dockerhub account accessing the link below : https://hub.docker.com
+Check your name profile :
+```
+
+#### E) 
+
+```
+Build the a new image with the same Dockerfile, but using “your_user”/dollarprice as the image name
+```
+
+#### F)
+
+```
+Login with your DockerHub login
+```
+
+#### G) 
+```
+Push your image to DockerHub repository
+```
+#### H) 
+```
+Reload your DockerHub page , check if your image is there.
+```
+
+#### I)
+```
+Add a new instance in your docker playground .
+```
+#### J)
+```
+Push your image from DockerHub to your local machine.
+```
+#### K)
+
+```
+Create a container with your username and port 80.
+```
+### Exercise 7
+#### A)
+```
+Pull the MySQL version 5.6 image
+
+```
+####  B)
+```
+ Createacontainercalledmysql52withthefollowingparameters:
+ - "MYSQL_ROOT_PASSWORD=123456"
+```
+####  C)
+```
+Getinthecontainercalledmysql-serverbyusingthefollowcommand:
+- mysql -p
+```
+
+####  D)
+
+```
+ Run the command , inside of the container :
+ - show databases;
+```
+
+### Exercise 8
+#### A)
+```
+Go the the mysql_ex folder.
+
+```
+
+#### B)
+```
+Create a new Dockerfile based on the latest image from mysql, and then add a command to copy the “d.sql” file to the image current directory.
+
+```
+
+#### C)
+```
+ Buildtheimagewiththenamemysql_content.
+```
+#### D)
+```
+Get into the container bash, then run the following command : - mysql -u root -p < d.sql
+```
+
+#### E)
+```
+Execute the command “show databases;”
+
+
 
